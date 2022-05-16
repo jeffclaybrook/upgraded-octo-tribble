@@ -144,7 +144,7 @@ function shareApp() {
    const shareData = {
       title: 'MP3 App',
       text: 'by Jeff Claybrook',
-      url: 'https://jeffclaybrook.github.io/improved-octo-waffle/'
+      url: 'https://jeffclaybrook.github.io/upgraded-octo-tribble/'
    };
    navigator.share(shareData)
    .then(() => shareMenu.textContent = '')
