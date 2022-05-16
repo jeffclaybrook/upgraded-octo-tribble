@@ -1,0 +1,23 @@
+{
+   "name": "MP3 App",
+   "short_name": "MP3 Application",
+   "start_url": "/",
+   "background_color": "#181818",
+   "theme_color": "#181818",
+   "display": "standalone",
+   "description": "MP3 App",
+   "icons": [
+      {
+         "src": "images/logo-192.png",
+         "type": "image/png",
+         "sizes": "192x192",
+         "purpose": "maskable"
+      },
+      {
+         "src": "images/logo-512.png",
+         "type": "image/png",
+         "sizes": "512x512",
+         "purpose": "any"
+      }
+   ]
+}
