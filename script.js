@@ -18,8 +18,18 @@ const shareBtn = document.querySelector('.share-btn');
 const collapseBtn = document.querySelector('.collapse-btn');
 const favoriteBtn = document.querySelector('.favorite-btn');
 const bg = 'linear-gradient(to bottom, rgba(69, 71, 85, .925) 0%, rgba(28, 28, 31, .95) 100%)';
-const people = ['Bill Clinton', 'Princess Diana', 'Elon Musk', 'Keanu Reeves', 'Joan of Arc', 'Albert Enstein', 'John Lennon', 'Michael Jackson', 'Abraham Lincoln', 'The Virgin Mary', 'Prison Mike', 'The Scranton Strangler', 'Adam and Eve', 'John the Baptist', 'Yoko Ono', 'Mike Lindell', 'Rudy Giuliani', 'Carlton Banks', 'Reince Priebus', 'Michael Clump', 'Detective Micahel Scarn', 'Bill Lumbergh'];
-const person = document.querySelector('.person').innerHTML = people[Math.floor(Math.random() * people.length)];
+const people = [
+  'Bill Clinton', 'Princess Diana', 'Elon Musk', 'Keanu Reeves',
+  'Joan of Arc', 'Albert Enstein', 'John Lennon', 'Michael Jackson',
+  'Abraham Lincoln', 'The Virgin Mary', 'Prison Mike', 'Adam and Eve',
+  'The Scranton Strangler', 'John the Baptist', 'Mike Lindell',
+  'Yoko Ono', 'Rudy Giuliani', 'Carlton Banks', 'Reince Priebus',
+  'Michael Clump', 'Detective Michael Scarn', 'Bill Lumbergh',
+  'Luka Doncic', 'Pluckers Wings Bar', 'Randy Marsh', 'Steve Irwin',
+  'Smarter Child', 'Lord Voldemort'
+];
+const person = document.querySelector('.person');
+person.innerHTML = people[Math.floor(Math.random() * people.length)];
 
 let songIndex = Math.floor((Math.random() * data.length) + 1);
 let isPlaying = false;
